@@ -1,0 +1,16 @@
+[package]
+name = "rustlips"
+description = "Rust-accelerated image generation from Hashlips metadata and layers"
+authors = ["Dean Little <dean@web3builders.dev>"]
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+
+[dependencies]
+image = "0.24.1"
+serde = { version = "1.0.117", features = ["derive"] }
+serde_json = "1.0.59"
+rayon = "1.5"
